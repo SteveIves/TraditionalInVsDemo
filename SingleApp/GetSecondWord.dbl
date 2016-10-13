@@ -1,0 +1,6 @@
+
+function GetSecondWord, string
+	
+proc
+	freturn "World"
+end

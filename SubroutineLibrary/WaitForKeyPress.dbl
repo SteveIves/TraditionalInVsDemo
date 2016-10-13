@@ -1,0 +1,14 @@
+
+subroutine WaitForKeyPress
+	.include "INC:system.def"
+	record
+		achr, a1
+	endrecord
+proc
+	accept(tt,achr)
+	while (%ttsts)
+	begin
+		accept(tt,achr)
+	end
+	xreturn
+endsubroutine

@@ -1,0 +1,7 @@
+
+subroutine GetFirstWord
+	required out message, a
+proc
+	message = "Hello"
+	xreturn
+end

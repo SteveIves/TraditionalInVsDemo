@@ -1,0 +1,8 @@
+
+subroutine CloseTerminal
+	.include "INC:system.def"
+proc
+	xcall ClearScreen
+	close tt
+	xreturn
+end

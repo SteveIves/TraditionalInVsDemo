@@ -1,0 +1,10 @@
+
+.ifdef INIT_DATA
+global data section SingleAppData, init
+.undefine INIT_DATA
+.else
+global data section SingleAppData
+.endc
+	record
+		firstWord, a20
+endglobal

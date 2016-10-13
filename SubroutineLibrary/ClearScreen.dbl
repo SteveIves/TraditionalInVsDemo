@@ -1,0 +1,7 @@
+
+subroutine ClearScreen
+	.include "INC:system.def"
+proc
+	display(tt,$scr_clr(SCREEN))
+	xreturn
+end

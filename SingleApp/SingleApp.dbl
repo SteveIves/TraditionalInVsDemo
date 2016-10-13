@@ -1,0 +1,21 @@
+
+main SingleApp
+
+	.include "INC:system.def"
+	.define INIT_DATA
+	.include "INC:SingleApp.def"
+	
+proc
+
+	xcall OpenTerminal
+
+	xcall GetFirstWord(firstWord)
+	xcall DisplayToScreen(2,2,%atrim(firstWord)+" "+%GetSecondWord)
+
+	xcall DisplayToScreen(4,2,"Press a key: ")
+	xcall WaitForKeyPress
+
+	xcall CloseTerminal
+	stop
+
+endmain

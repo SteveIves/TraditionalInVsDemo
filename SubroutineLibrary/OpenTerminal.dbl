@@ -1,0 +1,9 @@
+
+subroutine OpenTerminal
+	.include "INC:system.def"
+proc
+	xcall flags(7004020,1)
+	open(tt=0,i,"tt:")
+	xcall ClearScreen
+	xreturn
+end
