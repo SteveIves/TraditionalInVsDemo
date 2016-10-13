@@ -21,13 +21,17 @@
     <RootNamespace>SubroutineLibrary</RootNamespace>
     <TargetPlatform>v40</TargetPlatform>
     <EnableCommonProperties>True</EnableCommonProperties>
+    <Prefer32Bit>False</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>bin\Debug\x86\</OutputPath>
+    <OutputPath>$(SolutionDir)EXE</OutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Debug</DebugOptimize>
+    <TargetRuntimeLevel>10030300</TargetRuntimeLevel>
+    <LanguageCompatibilityLevel>10030300</LanguageCompatibilityLevel>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -41,10 +45,13 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>bin\Release\x86\</OutputPath>
+    <OutputPath>$(SolutionDir)EXE</OutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Optimize</DebugOptimize>
+    <TargetRuntimeLevel>10030300</TargetRuntimeLevel>
+    <LanguageCompatibilityLevel>10030300</LanguageCompatibilityLevel>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
