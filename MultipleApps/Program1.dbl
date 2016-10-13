@@ -1,0 +1,19 @@
+
+;;; <summary>
+;;; The main entry point for the application.
+;;; </summary>
+main Program1
+
+	.include "INC:system.def"
+
+proc
+
+	xcall OpenTerminal
+	xcall DisplayToScreen(2,2,"This is Program1")
+	xcall DisplayToScreen(4,2,"Press a key: ")
+	xcall WaitForKeyPress
+	xcall CloseTerminal
+
+	stop
+
+endmain
