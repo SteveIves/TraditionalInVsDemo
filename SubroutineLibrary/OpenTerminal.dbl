@@ -1,4 +1,7 @@
 
+;;; <summary>
+;;; Opens a channel to the terminal and clears the screen.
+;;; </summary>
 subroutine OpenTerminal
 	endparams
 	
@@ -12,4 +15,4 @@ proc
 
 	xreturn
 
-end
+endsubroutine

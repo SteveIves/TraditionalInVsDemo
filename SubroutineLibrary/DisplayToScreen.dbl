@@ -1,4 +1,10 @@
 
+;;; <summary>
+;;; Displays text on the screen at a specified row / column position.
+;;; </summary>
+;;; <param name="row">Row to display text at.</param>
+;;; <param name="col">Column to display text at.</param>
+;;; <param name="text">Text to display.</param>
 subroutine DisplayToScreen
 	required in row, n
 	required in col, n
@@ -13,4 +19,4 @@ proc
 
 	xreturn
 
-end
+endsubroutine

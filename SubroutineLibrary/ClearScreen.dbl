@@ -1,4 +1,7 @@
 
+;;; <summary>
+;;; Clears the screen.
+;;; </summary>
 subroutine ClearScreen
 	endparams
 	
@@ -10,4 +13,4 @@ proc
 
 	xreturn
 
-end
+endsubroutine

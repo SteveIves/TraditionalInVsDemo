@@ -1,4 +1,6 @@
-
+;;; <summary>
+;;; Waits for the user to press a key.
+;;; </summary>
 subroutine WaitForKeyPress
 	endparams
 	

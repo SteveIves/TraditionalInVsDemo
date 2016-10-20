@@ -1,12 +1,16 @@
 
+;;; <summary>
+;;; Returns the first word of the phrase "Hello World"
+;;; </summary>
+;;; <param name="word1">Pass the variable you would like the word returned in.</param>
 subroutine GetFirstWord
-	required out message, a
+	required out word1, a
 	endparams
 
 proc
 
-	message = "Hello"
+	word1 = "Hello"
 
 	xreturn
 
-end
+endsubroutine

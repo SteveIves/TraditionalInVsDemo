@@ -1,4 +1,8 @@
 
+;;; <summary>
+;;; Returns the first word of the phrase "Hello World"
+;;; </summary>
+;;; <returns>The second word of the phrase!</returns>
 function GetSecondWord, string
 	endparams
 	
@@ -6,4 +10,4 @@ proc
 
 	freturn "World"
 
-end
+endfunction

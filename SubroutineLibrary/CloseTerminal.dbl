@@ -1,4 +1,7 @@
 
+;;; <summary>
+;;; Closes the terminal channel.
+;;; </summary>
 subroutine CloseTerminal
 	endparams
 	
@@ -11,4 +14,4 @@ proc
 
 	xreturn
 
-end
+endsubroutine
