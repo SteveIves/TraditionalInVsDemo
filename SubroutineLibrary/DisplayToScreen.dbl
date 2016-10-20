@@ -3,8 +3,14 @@ subroutine DisplayToScreen
 	required in row, n
 	required in col, n
 	required in text, a
+	endparams
+
 	.include "INC:system.def"
+
 proc
+
 	display(tt,$scr_pos(row,col),text)
+
 	xreturn
+
 end

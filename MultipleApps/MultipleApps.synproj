@@ -22,6 +22,8 @@
     <TargetPlatform>v40</TargetPlatform>
     <EnableCommonProperties>True</EnableCommonProperties>
     <Prefer32Bit>False</Prefer32Bit>
+    <SingleBuildTarget>
+    </SingleBuildTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>

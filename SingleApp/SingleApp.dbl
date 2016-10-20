@@ -1,6 +1,9 @@
 
+;;; <summary>
+;;; The main entry point for the application.
+;;; </summary>
 main SingleApp
-
+	
 	.include "INC:system.def"
 	.define INIT_DATA
 	.include "INC:SingleApp.def"
@@ -16,6 +19,7 @@ proc
 	xcall WaitForKeyPress
 
 	xcall CloseTerminal
+
 	stop
 
 endmain

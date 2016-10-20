@@ -1,6 +1,9 @@
 
 function GetSecondWord, string
+	endparams
 	
 proc
+
 	freturn "World"
+
 end

@@ -1,7 +1,12 @@
 
 subroutine GetFirstWord
 	required out message, a
+	endparams
+
 proc
+
 	message = "Hello"
+
 	xreturn
+
 end
