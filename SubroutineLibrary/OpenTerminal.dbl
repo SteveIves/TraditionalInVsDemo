@@ -1,6 +1,6 @@
 
 ;;; <summary>
-;;; Opens a channel to the terminal and clears the screen.
+;;; Opens a channel to the terminal and, on non-windows systems, clears the screen.
 ;;; </summary>
 subroutine OpenTerminal
 	endparams
@@ -11,7 +11,10 @@ proc
 
 	xcall flags(7004020,1)
 	open(tt=0,i,"tt:")
+
+	.ifndef D_GUI
 	xcall ClearScreen
+	.endc
 
 	xreturn
 
